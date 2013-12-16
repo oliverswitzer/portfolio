@@ -19,15 +19,5 @@ module Name
       erb :index
     end
 
-    # helpers do
-    #   def last_tumblr_post
-    #     debugger
-    #     @download = open("http://allyourcodesarebelongtous.tumblr.com/api/read").read
-    #     @xml = Nokogiri::XML(@download)
-    #     @last_post = @xml.search("post regular-body")[0].children[0].text
-    #     return @last_post
-    #   end
-    # end
-
   end
 end
