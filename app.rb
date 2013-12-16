@@ -1,4 +1,7 @@
 require 'bundler'
+require 'open-uri'
+require 'nokogiri'
+require 'debugger'
 Bundler.require
 
 Dir.glob('./lib/*.rb') do |model|
@@ -10,13 +13,19 @@ module Name
 
     #routes
     get '/' do
+      @download = open("http://allyourcodesarebelongtous.tumblr.com/api/read").read
+      @xml = Nokogiri::XML(@download)
+      @last_post = @xml.search("post regular-body")[0].children[0].text
       erb :index
     end
 
-    #helpers
     # helpers do
-    #   def partial(file_name)
-    #     erb file_name, :layout => false
+    #   def last_tumblr_post
+    #     debugger
+    #     @download = open("http://allyourcodesarebelongtous.tumblr.com/api/read").read
+    #     @xml = Nokogiri::XML(@download)
+    #     @last_post = @xml.search("post regular-body")[0].children[0].text
+    #     return @last_post
     #   end
     # end
 

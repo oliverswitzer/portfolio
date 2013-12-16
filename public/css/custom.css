@@ -3,6 +3,28 @@
   border: 1px dashed red;
 }*/
 
+.top_link {
+	font-size: 35px;
+}
+#proj_container {
+	position: relative;
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.proj {
+	margin: 20px 0 20px 30px;
+	width: 175px;
+	height: 175px;
+	display: inline-block;
+	background-color: green;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
 body {
  background-image: url('/img/lined_paper.png');
 }
@@ -21,24 +43,29 @@ src: url('/fonts/adamas_regular/adamas-regular-webfont.ttf');
 #name {
   font-size: 70px;
   padding-left:  15px;
-  margin-bottom: 30px;
-  font-family: 'adamas-regular'
+  margin-bottom: 15zpx;
+  font-family: 'adamas-regular';
+  line-height: 150% ;
 }
 
 .main_container {
 	display: block;
 	margin: 0 auto;
 	width: 95%;
- 	border: 1px solid black;
- 	border-radius: 10px
+ 	border: 4px solid black;
+ 	border-radius: 10px;
+ 	padding: 20px;
 }
 
 .shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;
-  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #000000;
+  -webkit-box-shadow: 3px 3px 5px 6px #000000;
   box-shadow:         3px 3px 5px 6px #000000;
 }
 
+
 header {
-	margin-top: 30px;
+	margin: 30px;
 }
+
+h1 h2 h3
