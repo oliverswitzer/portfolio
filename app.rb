@@ -1,7 +1,6 @@
 require 'bundler'
 require 'open-uri'
 require 'nokogiri'
-require 'debugger'
 Bundler.require
 
 Dir.glob('./lib/*.rb') do |model|
