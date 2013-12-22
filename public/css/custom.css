@@ -58,6 +58,7 @@ a:active {color:rgb(114,	60,	57);}
 h1, h2, h3, h4 {
 	text-align: center;
 	font-family: 'brain-flower';
+	line-height: 110%;
 	font-weight: bold;
 }
 
