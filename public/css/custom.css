@@ -29,6 +29,7 @@ img {
 	border: 2px solid black;
 
 	-webkit-transition: all 100ms ease-in-out;
+	   -moz-transition: all 100ms ease-in-out;
 
 	background-color: rgba(22,	22,	22,	0.2);
 
