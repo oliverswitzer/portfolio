@@ -20,18 +20,28 @@ img {
 
 
 .proj {
+	position: relative;
 	margin: 20px 0 20px 40px;
 	width: 145px;
 	height: 145px;
 	display: inline-block;
 	border-radius: 20px;
+	border: 2px solid black;
+
+	-webkit-transition: all 100ms ease-in-out;
 
 	background-color: rgba(22,	22,	22,	0.2);
-	-webkit-box-shadow: 25px 33px 10px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 25px 33px 10px 0px rgba(0,0,0,0.75);
 
 	box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
 	overflow: hidden;
+}
+
+.proj:hover {
+	 -moz-box-shadow: 0px 0px 0px #000000;
+  -webkit-box-shadow: 0px 0px 0px #000000;
+          box-shadow: 0px 0px 0px #000000;
+    top: 3px;
+    left: 3px;
 }
 
 .poop {
@@ -39,6 +49,7 @@ img {
 	width: 200px;
 	height: 200px;
 }
+
 
 
 ./*proj:hover {
@@ -119,9 +130,9 @@ src: url('/fonts/adamas_regular/adamas-regular-webfont.ttf');
 }
 
 .shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #000000;
-  -webkit-box-shadow: 3px 3px 5px 6px #000000;
-  box-shadow:         3px 3px 5px 6px #000000;
+  -moz-box-shadow:    3px 3px 5px 5px #000000;
+  -webkit-box-shadow: 3px 3px 5px 5px #000000;
+  box-shadow:         3px 3px 5px 5px #000000;
   margin-top: 10px;
   margin-bottom: 10px;
 }

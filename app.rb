@@ -17,6 +17,5 @@ module Name
       @last_post = @xml.search("post regular-body")[0].children[0].text
       erb :index
     end
-
   end
 end
