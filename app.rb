@@ -15,6 +15,7 @@ module Name
       @download = open("http://allyourcodesarebelongtous.tumblr.com/api/read").read
       @xml = Nokogiri::XML(@download)
       @last_post = @xml.search("post regular-body")[0].children[0].text
+      @last_post_title = @xml.search("post regular-title")[0].children.text
       erb :index
     end
   end
