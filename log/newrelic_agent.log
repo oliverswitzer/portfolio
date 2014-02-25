@@ -168,3 +168,16 @@
 [02/25/14 16:21:31 -0500 Olivers-MacBook-Air.local (26301)] INFO : Installing deferred Rack instrumentation
 [02/25/14 16:21:31 -0500 Olivers-MacBook-Air.local (26301)] INFO : Finished instrumentation
 [02/25/14 16:21:31 -0500 Olivers-MacBook-Air.local (26301)] INFO : Doing deferred dependency-detection before Rack startup
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Starting the New Relic agent in "development" environment.
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Reading configuration from config/newrelic.yml
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Enabling the Request Sampler.
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Environment: development
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : No known dispatcher detected.
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Application: oliverjswitzer
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] WARN : Agent configured not to send data in this environment.
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Installing Net instrumentation
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Installing Sinatra instrumentation
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Installing deferred Rack instrumentation
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Finished instrumentation
+[02/25/14 17:10:35 -0500 Olivers-MacBook-Air.local (26481)] INFO : Doing deferred dependency-detection before Rack startup
