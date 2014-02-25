@@ -7,6 +7,7 @@ gem 'newrelic_rpm'
 
 
 group :development do
+  gem "debugger"
   gem "shotgun"
   gem "tux"
 end
